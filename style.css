@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
+
+body {
+  background-color: rgba(66, 73, 112,.1);
+  font-family: 'Source Sans 3', sans-serif;
+  color: rgb(23, 30, 39);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+#margin {
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 600px;
+  margin: 20px auto;
+}
+.card {
+  background: white;
+  margin-bottom: 10px;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+.img_circle {
+  width: 150px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: rgb(57, 57, 100);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(15, 15, 224);
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: #253883;
+}
+
+.btn_blue:hover {
+  background-color: #192b73;
+}
+
+.btn_blue {
+  background-color: #325aff;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 40px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
